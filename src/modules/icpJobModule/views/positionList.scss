@@ -1,0 +1,77 @@
+.position-container {
+  margin-top: 20px;
+  width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #f6fbff;
+}
+
+.position-list {
+  border-top: 1px solid #fff;
+}
+
+.position-list-item {
+  padding: 18px 25px;
+  font-size: 14px;
+}
+
+.top {
+  overflow: hidden;
+  width: 100%;
+}
+
+.left {
+  width: 300px;
+  float: left;
+}
+
+.center {
+  width: 140px;
+  float: left;
+}
+
+.right {
+  width: 270px;
+  float: left;
+}
+
+.position-name {
+  color: #000;
+  font-size: 18px;
+  a {
+    color: #000;
+    &:hover {
+      color: #00bff6;
+    }
+  }
+}
+
+.company-name {
+  width: 270px;
+  a {
+    display: block;
+    color: #666;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    &:hover {
+      color: #666;
+    }
+  }
+}
+.second{
+  margin-top:6px;
+  overflow: hidden;
+}
+.tags{
+  overflow: hidden;
+  width: 100%;
+  font-size: 14px
+}
+.tag-item{
+  padding: 4px;
+  margin-top: 10px;
+  margin-right: 10px;
+  border: 1px solid #00bff6;
+  float:left;
+}

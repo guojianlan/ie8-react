@@ -1,0 +1,21 @@
+.header{
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 50px;
+  line-height: 49px;
+  background: #fff;
+  overflow: hidden;
+}
+.header-left{
+  float:left;
+  line-height: 49px;
+}
+.header-right{
+  float: right;
+  line-height: 49px;
+  cursor: pointer;
+}

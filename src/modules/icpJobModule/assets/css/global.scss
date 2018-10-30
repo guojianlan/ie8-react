@@ -1,0 +1,442 @@
+/*
+ * Normalizing -- credits go to Normalize.css 4
+ */
+ *,
+ *:before,
+ *:after {
+   box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   -webkit-tap-highlight-color: transparent;
+   -moz-tap-highlight-color: transparent;
+   word-wrap: break-word;
+   word-break: break-word;
+ }
+ 
+ html,
+ body {
+   width: 100%;
+   height:100%;
+   color:#666;
+ }
+ 
+ html,
+ body {
+   margin: 0;
+   -moz-box-sizing: border-box;  
+  -webkit-box-sizing: border-box; 
+  -o-box-sizing: border-box; 
+  -ms-box-sizing: border-box; 
+  box-sizing: border-box; 
+ }
+ 
+ article,
+ aside,
+ details,
+ figcaption,
+ figure,
+ footer,
+ header,
+ main,
+ menu,
+ nav,
+ section,
+ summary {
+   display: block
+ }
+ 
+ 
+ /*
+  * Add the correct display in iOS 4-7.
+  */
+ 
+ audio:not([controls]) {
+   display: none;
+   height: 0;
+ }
+ 
+ 
+ /*
+  * 1. Remove the bottom border in Firefox 39-.
+  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+  */
+ 
+ ul,
+ li {
+   list-style-type: none
+ }
+ 
+ abbr[title] {
+   border-bottom: none;
+   /* 1 */
+   text-decoration: underline;
+   /* 2 */
+   text-decoration: underline dotted;
+   /* 2 */
+ }
+ 
+ 
+ /*
+  * Add the correct font style in Android 4.3-.
+  */
+ 
+ img {
+   border-style: none
+ }
+ 
+ 
+ /*
+  * Hide the overflow in IE.
+  */
+ 
+ svg:not(:root) {
+   overflow: hidden
+ }
+ 
+ 
+ /*
+  * 1. Correct the inheritance and scaling of font size in all browsers.
+  * 2. Correct the odd `em` font sizing in all browsers.
+  */
+ 
+ code,
+ kbd,
+ pre,
+ samp {
+   font-family: monospace, monospace/* 1 */
+ }
+ 
+ 
+ /*
+  * 1. Add the correct box sizing in Firefox.
+  * 2. Show the overflow in Edge and IE.
+  */
+ 
+ hr {
+   box-sizing: content-box;
+   /* 1 */
+   height: 0;
+   /* 1 */
+   overflow: visible;
+   /* 2 */
+ }
+ 
+ 
+ /*
+  * Change font properties to `inherit` in all browsers (opinionated).
+  */
+ 
+ button,
+ input,
+ select,
+ textarea {
+   margin: 0
+ }
+ 
+ 
+ /*
+  * Restore the font weight unset by the previous rule.
+  */
+ 
+ optgroup {
+   font-weight: bold
+ }
+ 
+ 
+ /*
+  * Show the overflow in IE.
+  * 1. Show the overflow in Edge.
+  * 2. Show the overflow in Edge, Firefox, and IE.
+  */
+ 
+ 
+ 
+ 
+ /*
+  * Remove the inner border and padding in Firefox.
+  */
+ 
+ button::-moz-focus-inner,
+ input::-moz-focus-inner {
+   border: 0;
+   padding: 0
+ }
+ 
+ 
+ /*
+  * Restore the focus styles unset by the previous rule.
+  */
+ 
+ button:-moz-focusring,
+ input:-moz-focusring {
+   outline: 1px dotted ButtonText
+ }
+ 
+ 
+ /*
+  * Remove the default vertical scrollbar in IE.
+  */
+ 
+ textarea {
+   overflow: auto
+ }
+ 
+ 
+ a{
+   text-decoration: none;
+ }
+ 
+ /*
+  * Remove the inner padding and cancel buttons in Chrome on OS X and
+  * Safari on OS X.
+  */
+ 
+ 
+ /*
+  * Remove browser controller for input type="number"
+  */
+ 
+ html,
+ body,
+ div,
+ span,
+ applet,
+ object,
+ iframe,
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6,
+ p,
+ blockquote,
+ pre,
+ a,
+ abbr,
+ acronym,
+ address,
+ big,
+ cite,
+ code,
+ del,
+ dfn,
+ em,
+ img,
+ ins,
+ kbd,
+ q,
+ s,
+ samp,
+ small,
+ strike,
+ strong,
+ sub,
+ sup,
+ tt,
+ var,
+ b,
+ u,
+ i,
+ center,
+ dl,
+ dt,
+ dd,
+ ol,
+ ul,
+ li,
+ fieldset,
+ form,
+ label,
+ legend,
+ table,
+ caption,
+ tbody,
+ tfoot,
+ thead,
+ tr,
+ th,
+ td,
+ article,
+ aside,
+ canvas,
+ details,
+ embed,
+ figure,
+ figcaption,
+ footer,
+ header,
+ hgroup,
+ menu,
+ nav,
+ output,
+ ruby,
+ section,
+ summary,
+ time,
+ mark,
+ audio,
+ video {
+   margin: 0;
+   padding: 0;
+   border: 0;
+ }
+ #icp-root{
+   padding-top:50px;
+   padding-bottom:40px;
+   position: relative;
+ }
+ .header-box{
+  position: absolute;
+  left:0;
+  top:0;
+  width:100%;
+  height:50px;
+  border-bottom:1px solid #e3e3e3;
+  z-index:2;
+  background: #fff;
+  overflow: hidden;
+ }
+ .header-container{
+   width:100%;
+   max-width:1024px;
+   margin-left:auto;
+   margin-right:auto;
+   overflow: hidden;
+ }
+ .header-logo{
+   padding-top:8px;
+   padding-bottom:8px;
+   float:left;
+   padding-left:20px;
+   img{
+    height:33px;
+    width:auto;
+   }
+ }
+ .header-right{
+   float:right;
+   padding-top:10px;
+    a{
+      display: inline-block;
+      padding-left: 10px;
+      padding-right: 10px;
+      background: #00bff6;
+      margin-right: 10px;
+      color: #fff;
+      height: 30px;
+      line-height: 30px;
+    }
+ }
+ .header-center{
+    float:left;
+    margin-left:20px;
+   line-height:49px;
+   a{
+     display: inline-block;
+     padding-left:10px;
+     padding-right:10px;
+     text-decoration: none;
+     color:#666;
+     &:active{
+       color:#00bff6;
+     }
+     &.active{
+      color:#00bff6;
+     }
+   }
+ }
+ .banner-image-box{
+  width: 100%;
+  height:330px;
+  background-position: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+ }
+ .swiper-pagination {
+  position: absolute;
+  z-index: 20;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
+.swiper-pagination-switch {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 8px;
+  background: #fff;
+  margin: 0 5px;
+  opacity: 0.8;
+  border: 1px solid #fff;
+  cursor: pointer;
+}
+.swiper-active-switch {
+  background: #00bff6;
+}
+
+.site-main-box{
+  padding-top:50px;
+  color:#000;
+}
+.site-main-title{
+  font-size:24px;
+  text-align:center;
+}
+.site-main-center{
+  width: 480px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 16px;
+  margin-top: 40px;
+  border: 1px solid #e3e3e3;
+}
+.site-center-input-box{
+  margin-top: 20px;
+  height: 40px;
+  line-height: 40px;
+  overflow: hidden;
+  .input-label{
+    text-align: left;
+    padding-right: 10px;
+    width:80px;
+    float:left;
+  }
+  input{
+    display: block;
+    float:left;
+    width:360px;
+    height:40px;
+    line-height:40px;
+    padding:0;
+    border:1px solid #e3e3e3;
+    outline: none;
+    text-indent: 10px;
+  }
+}
+.site-btn{
+  height: 50px;
+  line-height: 50px;
+  cursor: pointer;
+  background: #00bff6;
+  color: #fff;
+  margin-top: 20px;
+  text-align: center;
+}
+.site-btn-tips{
+  margin-top: 20px;
+  a{
+    color: #000;
+    text-decoration: underline;
+  }
+}
+.footer-main{
+  width:100%;
+  height:100%;
+  margin-top:30px;
+  font-size:14px;
+  text-align:center;
+  a{
+    color:#666;
+  }
+}

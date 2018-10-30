@@ -1,0 +1,109 @@
+.position-item-container{
+  position:relative;
+  overflow: hidden;
+}
+.top-main{
+  margin-top: 30px;
+  width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 50px;
+  border: 1px solid #e3e3e3;
+}
+.top{
+  padding: 20px;
+  position: relative;
+}
+.position-name{
+  color: #000;
+  font-size: 22px;
+}
+.salary{
+  color: #00bff6;
+  margin-top: 10px;
+}
+.top-btn{
+  position: absolute;
+  padding: 10px 20px;
+  background: #00bff6;
+  font-size: 14px;
+  right: 20px;
+  top: 20px;
+  border-radius: 5px;
+  border: 1px solid #00bff6;
+  a{
+    color: #fff;
+  }
+  &:hover{
+    background: #fff;
+    a{
+      color:#00bff6;
+    }
+  }
+}
+.top-center{
+  margin-top: 20px;
+  border-top: 1px dashed #e3e3e3;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+.center-container-list{
+  overflow: hidden;
+}
+.center-container-item{
+  width: 33%;
+  line-height: 35px;
+  float:left;
+  &.block {
+    width: 100%;
+    float:none;
+  }
+}
+.center-container-item-box{
+  overflow: hidden;
+}
+.item-label {
+  width: 85px;
+  line-height: 35px;
+  height: 35px;
+  color: #a3a3a3;
+  float:left;
+}
+.item-value{
+  float: left;
+  width:200px;
+}
+.center-container-city{
+  overflow: hidden;
+  line-height:35px;
+  .item-label{
+    width: 85px;
+    line-height: 35px;
+    height: 35px;
+    color: #a3a3a3;
+    float:left;
+  }
+  .item-value{
+    float: left;
+    width:800px;
+  }
+}
+.middle-box{
+  width: 1024px;
+  margin-top: 30px;
+  border: 1px solid #e3e3e3;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 30px;
+  padding: 20px;
+}
+.middle-box-title{
+  padding-top: 6px;
+  padding-bottom: 6px;
+  color: #000;
+  border-bottom: 1px solid #e3e3e3;
+}
+.middle-box-introduction{
+  margin-top:30px;
+}

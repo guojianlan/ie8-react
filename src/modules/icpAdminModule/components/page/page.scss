@@ -1,0 +1,20 @@
+.page-box{
+  text-align:center;
+  line-height:20px;
+  a{
+    color:#666;
+    display: inline-block;
+    padding-left:4px;
+    padding-right:4px;
+    border:1px solid #e3e3e3;
+    margin-left:2px;
+    margin-right:2px;
+    text-decoration: none;
+    &.active{
+      color:#00bff6;
+    }
+    &:hover{
+      color:#00bff6;
+    }
+  }
+}

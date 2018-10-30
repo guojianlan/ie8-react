@@ -1,0 +1,44 @@
+.login-main{
+  width: 400px;
+  border: 1px solid #e3e3e3;
+  margin-top:100px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #fff;
+}
+.container{
+  padding:20px;
+  color:#fff;
+}
+.input-box{
+  overflow: hidden;
+  width:100%;
+  font-size:0;
+  margin-top:20px;
+  input{
+    display: inline-block;
+    font-size:14px;
+    outline: none;
+    border:1px solid #e3e3e3;
+    height:40px;
+    line-height:40px;
+    width:100%;
+    text-indent: 20px;
+    color:#222;
+  }
+}
+.input-label{
+  color:#222;
+  font-size:16px;
+  padding-bottom:8px;
+}
+.btn-box{
+  height:50px;
+  line-height:50px;
+  width:100%;
+  margin-top:20px;
+  background:#00bff6;
+  color:#fff;
+  text-align:center;
+  cursor: pointer;
+}

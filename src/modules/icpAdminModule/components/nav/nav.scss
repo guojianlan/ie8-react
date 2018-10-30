@@ -1,0 +1,26 @@
+.container-left{
+  float:left;
+  width:180px;
+  border-right:1px solid #e3e3e3;
+  background: #fff;
+  padding-bottom: 2000px;
+  margin-bottom: -2000px;
+  a{
+    display: block;
+    height: 100%;
+    color: #666;
+    line-height: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align:center;
+    text-decoration: none;
+    &:hover{
+      background:#00bff6;
+      color:#fff;
+    }
+    &.active{
+      background:#00bff6;
+      color:#fff;
+    }
+  }
+}
